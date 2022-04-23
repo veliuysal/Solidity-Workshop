@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "simple Contract Example",
+			"kind": "dev",
+			"methods": {},
+			"title": "0xVeliUysal",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleContract.sol": "SimpleContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleContract.sol": {
+			"keccak256": "0x5ea57c684575c8a9429eba1224c2505e7435da8e1b5a2b43501fb3a12e42fdb5",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://41e88c9fc3af3254984b3816b3036adb2d74650f62e408ce298fa2ab3f5e939f",
+				"dweb:/ipfs/Qma7eRtxUsHMWyZFLzNj774Fjco8SrcTmKqzXy3AXPwAVc"
+			]
+		}
+	},
+	"version": 1
+}

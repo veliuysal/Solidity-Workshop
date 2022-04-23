@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "whoAmI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "0xVeliUysal",
+			"details": "Abstract Contract Example",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AbstractContract.sol": "AbstractContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AbstractContract.sol": {
+			"keccak256": "0x998cacc2f629bb501a36c1c0dd9128506129b5bbe6d195c7771b181b2aad7b19",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://6c83038fa77a2428ffe091a4564e368f39e10380db02b7df7513b5dd4c0d3282",
+				"dweb:/ipfs/QmYofHiD8Hkj3CaV1cN7ay7RB11b3sqx1znLc5esM7xNEX"
+			]
+		}
+	},
+	"version": 1
+}

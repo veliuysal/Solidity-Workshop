@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "SolidityWorkshopEvent",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "triggerEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "triggerEventWithAddressAndMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "triggerEventWithMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Event Example",
+			"kind": "dev",
+			"methods": {},
+			"title": "0xVeliUysal",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Event.sol": "Event"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Event.sol": {
+			"keccak256": "0xa57faa62ba14cf2f70c6c7875f3de784eb9f5f00fcdc62235b7fb2bfac8b425d",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://7c118629e622b66baeb68526570e1b026f622bcb79bc9da76823872644be71b8",
+				"dweb:/ipfs/QmSxFj9mE7cnj83R8kR5T2GCfEjciXZuchbxQY5xdAv1Bx"
+			]
+		}
+	},
+	"version": 1
+}

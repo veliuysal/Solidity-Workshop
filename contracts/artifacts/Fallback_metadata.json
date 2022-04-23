@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "whoAmI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "0xVeliUysal",
+			"details": "Fallback Example",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fallback.sol": "Fallback"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fallback.sol": {
+			"keccak256": "0x61740adf0a15a65f567d22a0b94e9e78e3bf924c847211c40425a6aa59ab3fb5",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://af742162ea92ea28a4a963d042eb0584eb59f1178f8443b53c98a177dc371ecc",
+				"dweb:/ipfs/QmXxnU1xc4EVHj8jg8h675EVhnwpsSGGQpzd3cY1jnGLn1"
+			]
+		}
+	},
+	"version": 1
+}

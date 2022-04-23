@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getIndex",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whoAmI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/InterfaceInheritance.sol": "ChildInterfaceInheritance"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/InterfaceInheritance.sol": {
+			"keccak256": "0xeca9c07e8b5765d8bab82921ecd5a0328ca56d26bd4e89e4b1b2ab475fceb5f6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4d028c66839d599c9b2550fb3bb01abfb52cfe94ed33746de4ecccc3a1f79f4c",
+				"dweb:/ipfs/QmTWLkFh661RLok1gxGno46NGYmS4iA2yu5qBBV3dKAVNm"
+			]
+		}
+	},
+	"version": 1
+}
