@@ -26,6 +26,25 @@
 						"type": "address"
 					}
 				],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
 				"name": "setNewOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -33,10 +52,10 @@
 			}
 		],
 		"devdoc": {
+			"author": "0xVeliUysal",
 			"details": "Address Example",
 			"kind": "dev",
 			"methods": {},
-			"title": "0xVeliUysal",
 			"version": 1
 		},
 		"userdoc": {
@@ -62,11 +81,11 @@
 	},
 	"sources": {
 		"contracts/Address.sol": {
-			"keccak256": "0xfcffe9f9e9f645dfcc52d0c410644ddcaf1be255834af35d3f342dc3fdf710e0",
+			"keccak256": "0xece8f473b2e6ef600c5ddb4fc1283944e990ebe577e5bc2053e3acd2a83c1b04",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://373c95ec40f9f88ca4db9cec5c91a75bb0ae87bbd94674e48341322ee79751cb",
-				"dweb:/ipfs/QmaKvCoeeVgktStECW9rvFPsZw1X1XYPt855stCPoRyzeH"
+				"bzz-raw://a5650b436527e90ff1a932b8eab4d245863939b3a4d8cee75d482671b85b9762",
+				"dweb:/ipfs/QmRyBUnAduQJQrHm6fr5Zpoj8ecPx3sKQJPr2D51B6UU1y"
 			]
 		}
 	},

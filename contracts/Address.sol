@@ -18,4 +18,8 @@ contract Address {
         return owner;
     }
 
+    function isOwner(address _owner) public view returns(bool) {
+        return owner == _owner;
+    }
+
 }
