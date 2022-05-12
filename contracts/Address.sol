@@ -9,6 +9,7 @@ pragma solidity >=0.7.0 <0.9.0;
 contract Address {
 
     address private owner;
+    address private owner;
 
     function setNewOwner(address _owner) public {
         owner = _owner;
