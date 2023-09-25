@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -20,10 +20,10 @@
 			}
 		],
 		"devdoc": {
+			"author": "0xVeliUysal",
 			"details": "Function Example",
 			"kind": "dev",
 			"methods": {},
-			"title": "0xVeliUysal",
 			"version": 1
 		},
 		"userdoc": {
@@ -36,7 +36,7 @@
 		"compilationTarget": {
 			"contracts/Function.sol": "Function"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -49,11 +49,11 @@
 	},
 	"sources": {
 		"contracts/Function.sol": {
-			"keccak256": "0xf47a926f5f5e8b4240625f9afe1f3ef06336a57169288db73518464bf67356e9",
+			"keccak256": "0x0ba8a16163578d6041a79537c1d114939c99fab95d1df75cb7df2964805176f6",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://cc9d2f81b4ee19b69c20f0e881ab4e7126711debfe4edb3075e7c36d809b2748",
-				"dweb:/ipfs/QmYxbvAHLBBzBuYgXfYQRD4QHikmmEHaNBRi6XhCC13fP2"
+				"bzz-raw://91a5a7bb6a92c41d7e15188f2d8025b2d246801e9f3ac5e5af56607ea76d763d",
+				"dweb:/ipfs/QmTrx1V9MHcDfGwaMziEpLdmR95bRd9oT8oDyiE7iLvLoc"
 			]
 		}
 	},

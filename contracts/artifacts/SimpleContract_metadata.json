@@ -1,15 +1,15 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [],
 		"devdoc": {
-			"details": "simple Contract Example",
+			"author": "0xVeliUysal",
+			"details": "Simple Contract Example",
 			"kind": "dev",
 			"methods": {},
-			"title": "0xVeliUysal",
 			"version": 1
 		},
 		"userdoc": {
@@ -22,7 +22,7 @@
 		"compilationTarget": {
 			"contracts/SimpleContract.sol": "SimpleContract"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -35,11 +35,11 @@
 	},
 	"sources": {
 		"contracts/SimpleContract.sol": {
-			"keccak256": "0x5ea57c684575c8a9429eba1224c2505e7435da8e1b5a2b43501fb3a12e42fdb5",
+			"keccak256": "0x6a8050320224da036784b0af887b9822aa6cd38540cb1c4ddfb50be94bf8e562",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://41e88c9fc3af3254984b3816b3036adb2d74650f62e408ce298fa2ab3f5e939f",
-				"dweb:/ipfs/Qma7eRtxUsHMWyZFLzNj774Fjco8SrcTmKqzXy3AXPwAVc"
+				"bzz-raw://52922d4b12e7858932af2ef2fd37caeab000fdb3fbb20baa19c69178f7954ca6",
+				"dweb:/ipfs/QmYwvTUx3cD4cFyCUWKDAnwAb8EtnypddVxhFZGL7GaFpf"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -64,10 +64,10 @@
 			}
 		],
 		"devdoc": {
+			"author": "0xVeliUysal",
 			"details": "Event Example",
 			"kind": "dev",
 			"methods": {},
-			"title": "0xVeliUysal",
 			"version": 1
 		},
 		"userdoc": {
@@ -80,7 +80,7 @@
 		"compilationTarget": {
 			"contracts/Event.sol": "Event"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -93,11 +93,11 @@
 	},
 	"sources": {
 		"contracts/Event.sol": {
-			"keccak256": "0xa57faa62ba14cf2f70c6c7875f3de784eb9f5f00fcdc62235b7fb2bfac8b425d",
+			"keccak256": "0xe36aa83f34a7a11396cc93010d89cedf616acb91f2b8fcc289c83fb8e7df3164",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://7c118629e622b66baeb68526570e1b026f622bcb79bc9da76823872644be71b8",
-				"dweb:/ipfs/QmSxFj9mE7cnj83R8kR5T2GCfEjciXZuchbxQY5xdAv1Bx"
+				"bzz-raw://e0b56900cf8b182fe25a20039baebd958563c0aa4cc2315872e45356d9d24f73",
+				"dweb:/ipfs/Qmc48z2GPZrD5dxxjWDDzVyKjZF6sEoes2o9tKvA8CZGHp"
 			]
 		}
 	},

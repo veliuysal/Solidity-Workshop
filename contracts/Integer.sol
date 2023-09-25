@@ -8,7 +8,7 @@ pragma solidity >=0.7.0 <0.9.0;
  */
 contract Integer {
 
-    uint256 private number = 23;
+    uint256 public number;
 
     function isEqual(uint256 _number) public view returns(bool) {
         return number == _number;
@@ -18,20 +18,20 @@ contract Integer {
         return number != _number;
     }
 
-    function isGreater(uint256 _number) public pure returns(bool) {
-        return _number > _number;
+    function isGreater(uint256 _number) public view returns(bool) {
+        return _number > number;
     }
 
-    function isGreaterOrEqual(uint256 _number) public pure returns(bool) {
-        return _number >= _number;
+    function isGreaterOrEqual(uint256 _number) public view returns(bool) {
+        return _number >= number;
     }
 
-    function isLess(uint256 _number) public pure returns(bool) {
-        return _number < _number;
+    function isLess(uint256 _number) public view returns(bool) {
+        return _number < number;
     }
 
-    function isLessOrEqual(uint256 _number) public pure returns(bool) {
-        return _number <= _number;
+    function isLessOrEqual(uint256 _number) public view returns(bool) {
+        return _number <= number;
     }
 
     function bitwiseAnd(uint256 number1, uint256 number2) public pure returns(uint256) {

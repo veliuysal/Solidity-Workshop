@@ -8,7 +8,7 @@ pragma solidity >=0.7.0 <0.9.0;
  */
 contract Struct {
 
-    struct Account{
+    struct Account {
         address contractAddress;
         uint256 balance;
     }

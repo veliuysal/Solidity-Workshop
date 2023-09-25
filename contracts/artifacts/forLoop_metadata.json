@@ -7,19 +7,21 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "whoAmI",
+				"name": "loop",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "string"
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
+			"author": "0xVeliUysal",
+			"details": "for loop Example",
 			"kind": "dev",
 			"methods": {},
 			"version": 1
@@ -32,7 +34,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/AbstractContract.sol": "InstructorContract"
+			"contracts/forLoop.sol": "forLoop"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +48,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/AbstractContract.sol": {
-			"keccak256": "0x5fd1b75bd5cb9badddb54317eb9b0b7ee8b232fc52eaad9c164e483104655b34",
+		"contracts/forLoop.sol": {
+			"keccak256": "0xf1dbe924143b9a7b030f34446cdc722e12f4faadd8e0c4fd20a79611867013e5",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://4e637fabd09dae8d5a05e5a339ec0e7646b3e229d6fb3b692f90d92f2cad9b67",
-				"dweb:/ipfs/QmYixbEwb5ZpcZHJKFKsZMK8MS9C5MZ7dWwaWDDCDahtRb"
+				"bzz-raw://5db8766220f8e1ee8c420148536f39de0f8c426cafa340d2013445d22d049575",
+				"dweb:/ipfs/QmXE1SyZPgoAxBsNvdo7Eu6cTmtmUmHSmQvPMPBtPYsK3k"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -49,11 +49,11 @@
 	},
 	"sources": {
 		"contracts/AbstractContract.sol": {
-			"keccak256": "0x998cacc2f629bb501a36c1c0dd9128506129b5bbe6d195c7771b181b2aad7b19",
+			"keccak256": "0x5fd1b75bd5cb9badddb54317eb9b0b7ee8b232fc52eaad9c164e483104655b34",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://6c83038fa77a2428ffe091a4564e368f39e10380db02b7df7513b5dd4c0d3282",
-				"dweb:/ipfs/QmYofHiD8Hkj3CaV1cN7ay7RB11b3sqx1znLc5esM7xNEX"
+				"bzz-raw://4e637fabd09dae8d5a05e5a339ec0e7646b3e229d6fb3b692f90d92f2cad9b67",
+				"dweb:/ipfs/QmYixbEwb5ZpcZHJKFKsZMK8MS9C5MZ7dWwaWDDCDahtRb"
 			]
 		}
 	},

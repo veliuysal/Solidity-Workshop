@@ -6,25 +6,25 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_city",
-						"type": "string"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "ModifierExampleEvent",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_city",
-						"type": "string"
+						"internalType": "address",
+						"name": "admin",
+						"type": "address"
 					}
 				],
-				"name": "addCity",
+				"name": "addAdmin",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -32,17 +32,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "getCityByIndex",
+				"name": "admins",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -50,34 +50,41 @@
 			},
 			{
 				"inputs": [],
-				"name": "getCityCount",
+				"name": "example",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getCityList",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string[]",
-						"name": "",
-						"type": "string[]"
+						"internalType": "address",
+						"name": "admin",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "removeAdmin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
 			"author": "0xVeliUysal",
-			"details": "Array Example",
+			"details": "ModifierExample Example",
 			"kind": "dev",
 			"methods": {},
 			"version": 1
@@ -90,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FixedSizeArray.sol": "FixedSizeArray"
+			"contracts/ModifierExample.sol": "ModifierExample"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -104,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/FixedSizeArray.sol": {
-			"keccak256": "0x02ab94540120e48681a0ec4cb5f51c7d6d3ff11229dd771d6c515db66f11f29f",
+		"contracts/ModifierExample.sol": {
+			"keccak256": "0x88771937b58ffb6af75fff5cf1ccd403f7231f46ecdf65dfcecc274777b31b61",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://af5521ff2aeee77fd35ca84c475930dcab59b53abf3129bb1c1ae974d599cb31",
-				"dweb:/ipfs/QmRvxZFU4A19XxWCSqBbDPiBHHgnad4TsuQXBzZuZHKEwU"
+				"bzz-raw://c40ee1579c8d7715f337548b8d1450dc09f4b198eb9217f3bdd10a5c200a49eb",
+				"dweb:/ipfs/QmYvLDMDWmFpRf7aabhB9H2mtmFABeSaaHHEx6spuVxoA6"
 			]
 		}
 	},

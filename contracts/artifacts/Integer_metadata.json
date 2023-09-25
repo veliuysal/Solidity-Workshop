@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -155,7 +155,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -174,7 +174,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -193,7 +193,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -212,7 +212,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -280,6 +280,19 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -396,7 +409,7 @@
 		"compilationTarget": {
 			"contracts/Integer.sol": "Integer"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -409,11 +422,11 @@
 	},
 	"sources": {
 		"contracts/Integer.sol": {
-			"keccak256": "0xc0ee6444fdf19a2ff05e40a565a52d2abd1827b2f39eb898f25cb633431a55b6",
+			"keccak256": "0x0c6df62b133b0a83faac6c169f93fc21dee6e72a066cb664fe0c003f77c2f713",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://6e62ee38b568a8b2ac6d4d30f85167bdeffa4df8cb0bce0cf1d9135d7daa3859",
-				"dweb:/ipfs/QmRC6UyX7DJCVu558KBHqN1pYLFdk83x6e8YsBBMtf4XUp"
+				"bzz-raw://2bc04e05cba6d8d2a5978158cdd62e74b84bb382916ca1a7556dcd794533feb4",
+				"dweb:/ipfs/QmUHU5kc9N56zSoLNqrUHBbtDtzjqvg21DV6WoprG1ag5b"
 			]
 		}
 	},

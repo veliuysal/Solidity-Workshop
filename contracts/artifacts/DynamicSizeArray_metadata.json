@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -76,10 +76,10 @@
 			}
 		],
 		"devdoc": {
+			"author": "0xVeliUysal",
 			"details": "Array Example",
 			"kind": "dev",
 			"methods": {},
-			"title": "0xVeliUysal",
 			"version": 1
 		},
 		"userdoc": {
@@ -92,7 +92,7 @@
 		"compilationTarget": {
 			"contracts/DynamicSizeArray.sol": "DynamicSizeArray"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -105,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/DynamicSizeArray.sol": {
-			"keccak256": "0x1753766b078706ada6674937cc066ebf0b823f1b02fbb3bbe4ebc2b46a83d2f3",
+			"keccak256": "0xf48ef54770859cb8f84e9326ffcca1522ae40115e73eee9e2ee29998147495e0",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://38c09b829331a55379bfb4c3a0af4a72d8db6c883a86cf3b82ffab061acbb0a0",
-				"dweb:/ipfs/QmYefjofMA8sp7pGw5xCg3gZCBDyGu57krf6ApxgmzwqNK"
+				"bzz-raw://f0db8b97f671fadc79bfaf511e6500b05b20945467a33ea7c66be27ac977bb20",
+				"dweb:/ipfs/QmbYWGzLQmEumb8NhojCbNzwH8PxfZpWg8aAcc8txAtz5f"
 			]
 		}
 	},

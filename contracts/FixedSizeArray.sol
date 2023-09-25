@@ -9,30 +9,32 @@ pragma solidity >=0.7.0 <0.9.0;
 contract FixedSizeArray {
 
     string[3] cityList;
+    uint index;
 
     constructor(string memory _city){
-        cityList[0] = _city;
+        cityList[index++] = _city;
     }
     
     function addCity(string memory _city) public {
-        cityList[cityList.length] = _city;
+        require(index < 3, "Kapasite Doldu.");
+        cityList[index++] = _city;
     }
 
     function getCityCount() public view returns(uint256) {
-        return cityList.length;
+        return index;
     }
 
     function getCityList() public view returns(string[] memory) {
         uint256 length = cityList.length;
         string[] memory _cityList = new string[](length);
-        for(uint256 index=0; index < length ; index++){
-            _cityList[index] = cityList[index];
+        for(uint256 i=0; i < length ; i++){
+            _cityList[i] = cityList[i];
         }
         return _cityList;
     }
 
-    function getCityByIndex(uint256 index) public view returns(string memory) {
-        return cityList[index];
+    function getCityByIndex(uint256 _index) public view returns(string memory) {
+        return cityList[_index];
     }
 
 

@@ -7,6 +7,7 @@ pragma solidity >=0.7.0 <0.9.0;
  * @dev Nested Mapping Example
  */
 contract NestedMapping {
+    
 
     mapping(address => mapping(address => uint256)) _allowances;
 
