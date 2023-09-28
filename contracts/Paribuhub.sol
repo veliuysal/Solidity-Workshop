@@ -2,7 +2,25 @@
 
 pragma solidity >=0.8.2 <0.9.0;
 
-contract Paribuhub {
+interface IAction{
+    function iAmReady() external pure returns(string memory); 
+}
+
+abstract contract Whois {
+    function whoAmI() public virtual returns(string memory);
+
+    function extraMethod() public {
+
+    }
+}
+
+contract VeliUysal {
+    function getFullName() public pure returns(string memory){
+        return "Veli Uysal";
+    }
+}
+
+contract ParibuHub is IAction, Whois, VeliUysal {
 
     bool public allowed; 
     uint public count;
@@ -11,8 +29,19 @@ contract Paribuhub {
     mapping(address => mapping(address => bool)) public allowance;
     string[] public errorMessages;
 
-    constructor(address _owner){
-        owner = _owner;
+    struct Account {
+        string name;
+        string surname;
+        uint256 balance;
+    }
+
+    Account account;
+    mapping(address => Account) public accountValues;
+    Account[3] public admins;
+    uint private index;
+
+    constructor(){
+        owner = msg.sender;
         errorMessages.push("is not allowed");
         errorMessages.push("only owner");
         errorMessages.push("placeholder");
@@ -29,7 +58,7 @@ contract Paribuhub {
     modifier isAllowed() {
         require(allowance[owner][msg.sender], errorMessages[0]);
         _;
-    }
+    }   
 
     modifier onlyOwner(){
         require(owner == msg.sender, errorMessages[1]);
@@ -51,5 +80,46 @@ contract Paribuhub {
     function assignAllowance(address _address) public onlyOwner {
         allowance[owner][_address] = true;
     }
+
+    function assignValue(string memory _name, string memory _surname, uint256 _balance) public {
+        account.name = _name;
+        account.surname = _surname;
+        account.balance = _balance;
+    }
+
+    function assignValue2(Account memory _account) public {
+        account = _account;
+    }
+
+    function getAccount() public view returns(Account memory){
+        Account memory _account = account;
+        return _account;
+    }
+
+    function assingAddressValues(Account memory _account) public {
+        accountValues[msg.sender] = _account;
+    }
+
+    function addAdmin(Account memory admin) public {
+       require(index<3, "Has no slot");
+        admins[index++] = admin;
+    }
+
+function getAllAdmins() public view returns(Account[3] memory) {
+    Account[3] memory _admins;
+    for(uint i=0;i<3;i++){
+        _admins[i] = admins[i];
+    }
+
+    return _admins;
+}
+
+ function iAmReady() external pure returns(string memory){
+    return "I am ready!";
+ }
+
+ function whoAmI() public override pure returns(string memory){
+    return "0xVeliUysal";
+ }
 
 }
