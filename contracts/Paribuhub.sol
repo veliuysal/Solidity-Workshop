@@ -105,21 +105,22 @@ contract ParibuHub is IAction, Whois, VeliUysal {
         admins[index++] = admin;
     }
 
-function getAllAdmins() public view returns(Account[3] memory) {
-    Account[3] memory _admins;
-    for(uint i=0;i<3;i++){
+    function getAllAdmins() public view returns(Account[] memory) {
+    Account[] memory _admins = new Account[](index);
+    for(uint i = 0; i < index; i++){
         _admins[i] = admins[i];
     }
 
     return _admins;
-}
 
- function iAmReady() external pure returns(string memory){
-    return "I am ready!";
- }
+    }
 
- function whoAmI() public override pure returns(string memory){
-    return "0xVeliUysal";
- }
+     function iAmReady() external pure returns(string memory){
+      return "I am ready!";
+    }
+
+     function whoAmI() public override pure returns(string memory){
+      return "0xVeliUysal";
+    }
 
 }
