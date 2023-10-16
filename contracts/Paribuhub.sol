@@ -105,9 +105,9 @@ contract ParibuHub is IAction, Whois, VeliUysal {
         admins[index++] = admin;
     }
 
-function getAllAdmins() public view returns(Account[3] memory) {
-    Account[3] memory _admins;
-    for(uint i=0;i<3;i++){
+function getAllAdmins() public view returns(Account[] memory) {
+    Account[] memory _admins = new Account[](index);
+    for(uint i=0;i<index;i++){
         _admins[i] = admins[i];
     }
 
